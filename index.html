@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random String Display</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        #display {
+            font-size: 5em;
+            text-align: center;
+            display: block;
+        }
+        #count {
+            font-size: 1em;
+            text-align: center;
+            color: #999;
+            display: block;
+        }
+        #shuffle {
+            margin-top: 3em;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="display">Press Enter or space to go to next item, and left and right arrows to navigate.</div>
+    <br/>
+    <div id="count"></div>
+    <div id="shuffle"><button onclick="shuffle()">Re-shuffle</button></div>
+
+    <script src="strings.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
