@@ -6,8 +6,8 @@
     <title>Random String Display</title>
     <style>
         body {
-            display: flex;
-            flex-direction: column;
+            /* display: flex; */
+            /* flex-direction: column; */
             justify-content: center;
             align-items: center;
             height: 100vh;
@@ -30,6 +30,11 @@
         #shuffle {
             margin-top: 3em;
         }
+        #dump {
+            margin-top: 1em;
+            text-align: center;
+            list-style-position: inside;
+        }
 
     </style>
 </head>
@@ -37,9 +42,10 @@
     <div id="display">Press Enter or space to go to next item, and left and right arrows to navigate.</div>
     <br/>
     <div id="count"></div>
-    <div id="shuffle"><button onclick="shuffle()">Re-shuffle</button></div>
-
+    <div id="shuffle"><center><button onclick="shuffle()">Re-shuffle</button><button onclick="dump()">Dump</button></center></div>
+    <div id="dump"></div>
     <script src="strings.js"></script>
     <script src="app.js"></script>
+
 </body>
 </html>

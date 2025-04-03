@@ -32,6 +32,13 @@ function handleKeydown(event) {
     }
 }
 
+function dump() {
+    var html = "<ol>";
+    for (var i=0; i<shuffledStrings.length; i++) html += "<li>" + shuffledStrings[i] + "</li>";
+    html += "</ol>";
+    document.getElementById('dump').innerHTML = html;
+}
+
 // Initialize the shuffled list and set up the key press event listener
 function init() {
     shuffledStrings = [...strings];  // Copy the list
@@ -43,3 +50,4 @@ function init() {
 }
 
 init();
+

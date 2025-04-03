@@ -43,7 +43,11 @@ const strings = [
     "Enpi",
     "Bo Kata 1",
     "Kama Kata 1-3",
-    "Sword 10 Moves",
+    "Sword 10 Steps",
     "Sword Form",
-    "Elbows"
+    "Elbows",
+    "Escrima",
+    "Nunchaku - Chase 1",
+    "Nunchaku - Chase 2",
+    "Star Blocks"
 ];
